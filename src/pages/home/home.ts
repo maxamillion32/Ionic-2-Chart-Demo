@@ -19,8 +19,5 @@ export class HomePage {
     this.navCtrl.push(LineChartPage);
   }
 
-  openAddValueChartPage() {
-    this.navCtrl.push(AddValuePage);
-  }
 
 }

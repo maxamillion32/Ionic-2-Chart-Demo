@@ -13,12 +13,6 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class AddValuePage {
 
-  lineChartData:Array<any> = [
-    {data: [], label: 'Series A'}
-  ];
-
-  lineChartLabels:Array<any> = [];
-
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 

@@ -14,19 +14,5 @@
 
 
 <ion-content padding>
-  <ion-item>
-    <ion-label >Value</ion-label>
-    <ion-input [(ngModel)]="value"></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-label >Label</ion-label>
-    <ion-input [(ngModel)]="label"></ion-input>
-  </ion-item>
-  <button ion-button block (click)="addNewItem(value, label)">Add</button>
-<div style="display: block">
-<canvas baseChart width="400" height="400"
-                [datasets]="lineChartData"
-                [labels]="lineChartLabels"
-                [chartType]='"line"'></canvas>
-  </div>
+  
 </ion-content>
