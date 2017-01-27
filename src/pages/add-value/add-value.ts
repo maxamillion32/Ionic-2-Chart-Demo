@@ -20,9 +20,6 @@ export class AddValuePage {
     console.log('ionViewDidLoad AddValuePage');
   }
 
-  addNewItem(value, label){
-    this.lineChartData[0].data.push( value );
-    this.lineChartLabels.push( label );
-  }
+  
 
 }
