@@ -3,7 +3,6 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LineChartPage } from '../pages/line-chart/line-chart';
-import { AddValuePage } from '../pages/add-value/add-value';
 
 // 1. Run: npm install ng2-charts --save
 // 2. Run: npm install chart.js --save
@@ -16,8 +15,7 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
   declarations: [
     MyApp,
     HomePage,
-    LineChartPage,
-    AddValuePage
+    LineChartPage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -28,8 +26,7 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
   entryComponents: [
     MyApp,
     HomePage,
-    LineChartPage,
-    AddValuePage
+    LineChartPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
