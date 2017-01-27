@@ -1,7 +1,7 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "Ionic 2 Chart Demo",
+  "author": "Teerasej Jiraphatchandej",
+  "homepage": "https://www.nextflow.in.th",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -49,5 +49,5 @@
       "locator": "ios"
     }
   ],
-  "description": "Chart: An Ionic project"
+  "description": "Ionic 2 Chart Demo: by Teerasej Jiraphatchandej"
 }
